@@ -1,0 +1,61 @@
+.container{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 80px;
+}
+.informacion{
+    flex-basis: calc(60% - 170px);
+    background-color: #f0f0f0;
+    border-radius: 20px ;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    transition: 0.3s ease, 0.3s ease;
+}
+
+.valores-container {
+    background-color: white; /* Fondo blanco para la parte que contiene los valores */ /* Box-shadow solo en la parte blanca */
+    border-radius: 10px; /* Opcional: para darle bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 10px; /* Separación respecto al título */
+    transition: 0.3s ease, 0.3s ease;
+}
+
+.valores:hover{
+    transform: scale(1.12);
+    box-shadow: 0px 6px 12px #75b1c9;
+}
+
+.valores{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    transition:  0.3s ease,0.3s ease;
+}
+.card{
+    padding: 20px;
+    transition:  0.3s ease,0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    font-size: 20;
+}
+
+.valores-container:hover{
+    transform: scale(1.05);
+    font-size: 20;
+}
+
+.card p{
+    color: #111;
+    text-align: justify;
+}
+
+.informacion:hover {
+    transform: scale(1.12);
+    box-shadow: 0px 6px 12px #75b1c9;
+}

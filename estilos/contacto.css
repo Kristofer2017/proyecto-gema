@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+main {
+    min-height: auto;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    margin: 0 80px;
+    font-size: 1.3em;
+    height: 500px;
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-part {
+    margin-bottom: 10px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.login-container {
+    background-color: #cfe9ff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.login-container h4 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    color: #0073e6;
+    font-size: 0.9em; /* Tamaño reducido */
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+.login-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9em; /* Tamaño reducido */
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Botón verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1em; /* Tamaño del botón */
+    transition: background-color 0.3s; /* Transición para el color */
+}
+
+.login-form button:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+}
+
+.sidebar-buttons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-buttons li {
+    margin-bottom: 10px;
+}
+
+.sidebar-buttons a {
+    display: block;
+    padding: 10px;
+    background-color: #00BCD4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em; /* Tamaño reducido */
+}
+
+.sidebar-buttons a:hover {
+    background-color: #0097A7;
+}
+
+.course-images {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    margin-top: 20px;
+}
+
+.course-images img {
+    width: 70%; /* Ajustar el tamaño de las imágenes */
+    max-width: 300px; /* Tamaño máximo para las imágenes */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin: 20px; /* Espaciado entre imágenes */
+    transition: transform 0.3s; /* Transición al pasar el mouse */
+}
+
+.course-images img:hover {
+    transform: scale(1.05); /* Aumento de tamaño al pasar el mouse */
+}
+
+.centered {
+    text-align: center; /* Centrado de texto */
+}
+
+/* Estilos para redes sociales */
+.social-media {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    margin-top: 10px; /* Espacio encima de las imágenes */
+}
+
+.social-media img {
+    margin: 0 10px; /* Espaciado entre las imágenes de redes sociales */
+}
+

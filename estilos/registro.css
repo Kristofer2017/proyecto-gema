@@ -1,0 +1,52 @@
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    margin: 0 80px;
+    font-size: 1.3em;
+}
+.main-content h2 {
+    text-align: center;
+    color: #0073e6;
+    margin-top: 0; /* Espacio reducido arriba */
+}
+.main-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content label {
+    margin: 10px 0 5px;
+}
+.main-content input, .main-content select {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.main-content .apply-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.main-content .apply-button:hover {
+    background-color: #45a049;
+}
+.sidebar {
+    width: 200px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
