@@ -9,6 +9,10 @@ body {
 main {
     min-height: 72.5vh;
 }
+.logo{
+    height: 120px;
+    margin-right:70px;
+}
 /* ENCABEZADO */
 header {
     background-color: #0073e6;
